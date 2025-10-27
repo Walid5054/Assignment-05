@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="max-w-screen-2xl mx-auto">
+    <header>
+      <nav
+        class="flex p-4 bg-white shadow-md justify-between items-center rounded-lg mt-2"
+      >
+        <div class="flex gap-2">
+          <img class="w-8" src="asset/logo.png" alt="" />
+          <h2 class="text-xl">
+            Dev<span class="font-bold text-xl">Board</span>
+          </h2>
+        </div>
+        <div class="flex gap-5 bg-blue-500 px-4 py-2 rounded-lg">
+          <button id="back" class="text-white font-bold cursor-pointer">
+            Back to Dev
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="mt-5">
+      <div class="text-center">
+        <h1 class="font-bold mb-2">Blogs</h1>
+      </div>
+      <div class="flex flex-col gap-3">
+        <!-- card 1  -->
+        <div class="bg-gray-200 rounded py-3">
+          <h1 class="font-bold mt-4">
+            Question-1:What are the different ways to select an element in the
+            DOM
+          </h1>
+          <p class="mt-4">
+            using document.getElementby we can select an element by id class or
+            the element itself
+          </p>
+        </div>
+        <!-- card 2  -->
+        <div class="bg-gray-200 rounded py-3">
+          <h1 class="font-bold mt-4">
+            Question-2:What is the differrence between innerHtml , innerText and
+            textContent
+          </h1>
+          <p class="mt-4">
+            with innerHtml can create html tags and elements as we needed the
+            innertext can make changes to the text of an element
+          </p>
+        </div>
+        <!-- card 3  -->
+        <div class="bg-gray-200 rounded py-3">
+          <h1 class="font-bold mt-4">
+            Question-3:What is event delegation in the DOM
+          </h1>
+          <p class="mt-4">
+            It is about removing or adding a child inside a parent node
+          </p>
+        </div>
+        <!-- card 4  -->
+        <div class="bg-gray-200 rounded py-3">
+          <h1 class="font-bold mt-4">
+            Question-4:What is event bubling in the DOM
+          </h1>
+          <p class="mt-4">
+            it is the process to find the targeted element with bubling
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="script/script.js"></script>
+  </body>
+</html>
